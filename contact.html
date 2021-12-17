@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Barbearia Diegão - Contato
+        </title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">        
+    </head>
+
+    <body>
+        <header class="headTitle">
+            <div class="box">
+                <h1>
+                    <img class="logo" src="logo-branco.png">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html" target="newTab">Home</a></li>
+                            <li><a href="products.html" target="newTab" >Produtos</a></li>
+                            <li><a href="contacts.html" target="newTab">Contato</a></li>
+                        </ul>
+                    </nav>
+                </h1>
+            </div>
+        </header>
+
+        <main>
+            <form class="formContacts">
+
+                <p>Fala com a gente que a gente responde rapidinho!</p>
+
+                <input type="text" class="formContactsBlocks" value="Nome">
+                <input type="text" class="formContactsBlocks" value="Email">
+                <input type="text" class="formContactsBlocks" value="Telefone">
+
+                <textarea cols="90" rows="8" class="formContactsBlocks">
+                    Digite aqui o texto...
+                </textarea>
+
+                <section>
+                    <p>Como você prefere ser contatado?</p>
+                    
+                    <label for="selectEmail" class="formContactsBlocks"><input type="radio" name="contactWays" value="email" id="selectEmail">Email</label>
+
+                    <label for="selectPhone" class="formContactsBlocks"><input type="radio" name="contactWays" value="phone" id="selectPhone">Telefone</label>
+
+                    <label for="selectApp" class="formContactsBlocks"><input type="radio" name="contactWays" value="app" id="selectApp">Aplicativo de Mensagens</label>
+                </section>
+
+                <label><input type="checkbox" > Deseja saber sobre as promoções e novidades da nossa Barbearia?</label>
+                
+
+                <input type="submit">
+            </form>
+        </main>
+
+        <footer>                        
+            <img src="logo-branco.png">
+            <p>developed by @diegaoProg to</p>
+            <p>&copy; ALURA's basic HTML & CSS</p>
+        </footer>
+
+    </body>    
+</html>
